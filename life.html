@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Conway's Life</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script src="js/jquery-ui/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui/ui/jquery.ui.core.js"></script>
+    <script src="js/jquery.color-2.1.2.js"></script>
+
+</head>
+<body>
+
+Width: <input type="text" id="width" value=0> |
+Height: <input type="text" id="height" value=0> |
+<input type="button" id="new_board" onclick="generateBoard()" value="New Board"> |
+# of Rounds: <input type="text" id="num_rounds" value=0> |
+<input type="button" id="gameToggle" onclick="startGame()" value= "Start Game">
+
+<div id="board"></div>
+
+<script src="js/life.js"></script>
+</body>
+</html>

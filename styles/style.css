@@ -1,0 +1,23 @@
+body{
+    width:10000px;
+}
+
+.dead {
+     background-color: #e0e0e0;
+ }
+
+.alive {
+     background-color: #474747;
+ }
+
+.dead, .alive {
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.row {
+    clear: left;
+}
